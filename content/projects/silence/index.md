@@ -17,14 +17,16 @@ It was made for the ZTGK 2023 contest and got to **TOP 3** in the Game Developme
 
 It was also awarded by the **11 bit studios** company.
 
-{{< video src="animations.webm" type="video/webm" preload="auto" controls="1" loop="1">}}
+<!-- {{< video src="animations.webm" type="video/webm" preload="auto" controls="1" loop="1">}} -->
+
+{{< youtube smbrYnifdPU>}}
 
 The gameplay is focued on cooperation between the two players.
 As agent, you have to sneak around the map, avoiding the guards and activating the switches.
 As hacker, you have to help the agent by distracting the guards and hacking the security cameras.
 Because of the assymetry between the abilities of the two players, it's crucial that they communicate and cooperate with each other.
 
-You can download the game on [itch.io]("https://cladur.itch.io/silence") or check the source code on [GitHub]("https://github.com/cladur/silence).
+You can download the game on [itch.io](https://cladur.itch.io/silence") or check the source code on [GitHub](https://github.com/cladur/silence).
 
 ## Development
 
@@ -90,9 +92,7 @@ They are computed based on the light's shadow map and raymarching.
 
 {{< video src="videos/volumetric.webm" type="video/webm" preload="auto" autoplay="1" controls="" loop="1" muted="1">}}
 
-#### Bloom
-
-The renderer also supports a bloom effect, which is used to create a more realistic lighting.
+#### Physically Based Bloom
 
 {{< video src="videos/bloom.webm" type="video/webm" preload="auto" autoplay="1" controls="" loop="1" muted="1">}}
 
