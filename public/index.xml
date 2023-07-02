@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jan Maślak</title>
+    <link>https://cladur.github.io/</link>
+    <description>Recent content on Jan Maślak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 01 Jul 2023 21:13:41 +0200</lastBuildDate><atom:link href="https://cladur.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Silence</title>
+      <link>https://cladur.github.io/projects/silence/</link>
+      <pubDate>Sat, 01 Jul 2023 21:13:41 +0200</pubDate>
+      
+      <guid>https://cladur.github.io/projects/silence/</guid>
+      <description>Together with a friend, take on the role of an agent and a hacker who must stop a military company from launching a dangerous combat robot.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://cladur.github.io/projects/silence/featured.png" />
+    </item>
+    
+  </channel>
+</rss>
