@@ -137,7 +137,7 @@ Our physics engine also supports `Raycast`s, which are used everywhere inside ou
 
 {{< video src="videos/animations.webm" type="video/webm" preload="auto" autoplay="1" controls="" loop="1" muted="1">}}
 
-Our engine supports skeletal animation with up to 512 bones per animation. We also implemented blending between the animations and functionality to attach any object to selected bone -- ex. a gun to the enemy or a knife to the agent.
+Our engine supports skeletal animation with up to 512 bones per animation. We also implemented blending between the animations and functionality to attach any object to selected bone -- for ex. a gun to the enemy or a knife to the agent.
 
 ## Tools
 
@@ -240,6 +240,8 @@ While the editor we've made was a great tool, it was lacking some features that 
 - C++ Reflection. Every time we added a new field to a component, we had to manually add it to the editor's GUI code. This was a big chore and could easily be automated.
 
 Although our game loads very fast, our work could be even more streamlined if we added the **hot-reload system**, so that we wouldn't have to restart the game every time we made a change in the code.
+
+While we're happy with out asset pipeline, we could improve it further by 
 
 ## Team
 
