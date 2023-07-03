@@ -232,25 +232,25 @@ So, while using Vulkan was bad for the project, it was good for our education.
 
 If starting over was an option, we would focus more on the editor at the beginning of the project, as opposed to the game's runtime.
 As we've come to realize, programming in new features and game logic can only get you so far.
-Creating **content** is also a big part of the game development, and having a good toolset for that is crucial.
+Creating **content** is also a big part of the game development, and having a good toolset for that is critical.
 
 While the editor we've made was a great tool, it was lacking some features that would make it even more useful, such as:
 - Dedicated Model component for walls and floors, instead of using a cube prefab made out of 6 plane models. This would allow us to iterate more rapidly on the level design.
-- More thought out scene management. Our scenes were just a list of entities, which became a problem when we introduced prefabs. In the end our "prefabs" were more of a glorified copy-and-paste than something you would expect if you've knew Unity's Prefabs. Going forward we would probably use a scene graph instead.
+- More thought out scene management. Our scenes were just a list of entities, which became a problem when we introduced prefabs. In the end our "prefabs" were more of a glorified copy-and-paste than something you would expect if you've knew Unity's Prefabs. Going forward we would like for a scene to reference a prefab, instead of just copying it.
 - C++ Reflection. Every time we added a new field to a component, we had to manually add it to the editor's GUI code. This was a big chore and could easily be automated.
 
 Although our game loads very fast, our work could be even more streamlined if we added the **hot-reload system**, so that we wouldn't have to restart the game every time we made a change in the code.
 
 ## Team
 
-[Jan Maślak](https://cladur.github.io/) - Leader, Rendering, Level and Game Design, Asset Baker, Editor
+[Jan Maślak](https://cladur.github.io/) - Leadership, Rendering, Level and Game Design, Asset Baker, Editor
 
 [Maciej Poncyleusz](https://github.com/Merloran) - Physics, Rendering, Animation Programming
 
 **Mateusz Kowalski** - ECS, Editor, Level Design, Game Programming
 
-**Adam Koch** - Game Programming, Tracy Integration, Input Mangament
+**Adam Koch** - Game Programming, Tracy Integration, Input Management
 
-[**Hubert Łabuda**](https://linktr.ee/Maeror) - Music and Sounds, FMOD Integration, UI, AI
+[Hubert Łabuda](https://linktr.ee/Maeror) - Music and Sounds, FMOD Integration, UI, AI
 
 [Agata Granosik](https://www.artstation.com/agatagranosik) - Modeling, Texturing, Animations
