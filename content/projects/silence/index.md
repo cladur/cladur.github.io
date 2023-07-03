@@ -161,16 +161,16 @@ Thanks to that, not only is the asset size reduced by more than 50%, but also th
 ### Editor
 
 We created a custom editor for our game, which we used to create the levels and set the relations between the entities.
-It's interface is created using the Dear ImGui library.
+It's interface was created using the Dear ImGui library.
 
 #### Basic Features
 
 {{< video src="videos/editor_usage.webm" type="video/webm" preload="auto" autoplay="1" loop="1" muted="1">}}
 
-Our editor allows the user to create and delete entities and manage their parent-child relationships.
-You can freely add and remove components from entities, such as models, colliders, lights and etc.
+Our editor allows the user to create and delete entities as well as manage their parent-child relationships.
+They can also add or remove components from entities, such as models, colliders, lights and etc.
 
-Some of the features include:
+Some of the features present in the editor are:
 
 - Mouse Picker -- selecting entities by clicking on them (done by rendering entities IDs to a texture and reading the pixel under the cursor),
 - Gizmos -- with the use of ImGuizmo library,
@@ -194,7 +194,7 @@ Various visualization layers can be enabled in the editor, displaying useful inf
 #### Prefabs
 
 We created a prefab system, which allows the user to create prefabs, which are precreated entities that can be quickly copy-pasted through-out the scene.
-We used them to create complex complex game objects, which were composed of multiple entities, such as the enemies or cameras.
+We used them to create complex game objects, which were composed of multiple entities, such as the enemies or cameras.
 
 {{< video src="videos/prefabs.webm" type="video/webm" preload="auto" autoplay="1" loop="1" muted="1">}}
 
@@ -205,9 +205,9 @@ We used them to create complex complex game objects, which were composed of mult
 Through out the development of this project we learned a lot about the game development and the process of creating a game from scratch.
 
 There were many aspects about the game which increased the size of our scope:
-- **True** 3D game, instead of something like 2.5D,
-- Stealth genre, which required solid AI and level design,
-- Coop, which makes the game harder to playtest, balance and design. Also puts more pressure on the rendering system.
+- True **3D** game, instead of something like 2.5D,
+- **Stealth** genre, which required solid AI and level design,
+- **Coop**, which makes the game harder to playtest, balance and design. Also puts more pressure on the rendering system.
 
 Despite the huge scope and limited resources, we managed to ship a demo that is both fun to play and has a good amount of content.
 
@@ -241,7 +241,9 @@ While the editor we've made was a great tool, it was lacking some features that 
 
 Although our game loads very fast, our work could be even more streamlined if we added the **hot-reload system**, so that we wouldn't have to restart the game every time we made a change in the code.
 
-While we're happy with out asset pipeline, we could improve it further by 
+While we're happy with how our asset pipeline turned out, it could be improved even further by:
+- only baking the assets that have changed,
+- combining the assets into PAK files, so that they can be loaded even faster.
 
 ## Team
 
