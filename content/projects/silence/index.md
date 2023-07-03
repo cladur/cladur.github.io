@@ -67,6 +67,8 @@ Textures were created using the PBR workflow.
 
 ### Music and Sounds
 
+{{< video src="videos/adaptive_music.webm" type="video/webm" preload="auto" controls="1" loop="1">}}
+
 To achieve spatial sounds and music that can change with the flow of gameplay we used FMOD Studio API and integrated it with our engine. All the sounds and music from the game were created by [Hubert Łabuda (aka Maeror)](https://linktr.ee/Maeror) using FL Studio, various plug-ins and real life recordings. An FMOD Studio project was then created with all of the sounds and music that was split into multiple banks that are loaded at the start of the game.
 
 ## Engine
@@ -251,10 +253,10 @@ While we're happy with how our asset pipeline turned out, it could be improved e
 
 [Maciej Poncyleusz](https://github.com/Merloran) - Physics, Rendering, Animation Programming
 
-**Mateusz Kowalski** - ECS, Editor, Level Design, Game Programming
+[Mateusz Kowalski](https://github.com/Kurogamin) - ECS, Editor, Level Design, Game Programming
 
 **Adam Koch** - Game Programming, Tracy Integration, Input Management
 
-[Hubert Łabuda](https://linktr.ee/Maeror) - Music and Sounds, FMOD Integration, UI, AI
+[Hubert Łabuda](https://linktr.ee/Maeror) - Music and Sounds, FMOD Integration, Rendering, UI, AI
 
 [Agata Granosik](https://www.artstation.com/agatagranosik) - Modeling, Texturing, Animations
