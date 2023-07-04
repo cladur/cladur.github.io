@@ -249,14 +249,18 @@ While we're happy with how our asset pipeline turned out, it could be improved e
 
 ## Team
 
-[Jan Maślak](https://cladur.github.io/) - Leadership, Rendering, Level and Game Design, Asset Baker, Editor
+{{< figure src="images/team.jpg" title="Team" >}}
 
-[Maciej Poncyleusz](https://github.com/Merloran) - Physics, Rendering, Animation Programming
+From left to right:
 
 [Mateusz Kowalski](https://github.com/Kurogamin) - ECS, Editor, Level Design, Game Programming
 
 **Adam Koch** - Game Programming, Tracy Integration, Input Management
 
-[Hubert Łabuda](https://linktr.ee/Maeror) - Music and Sounds, FMOD Integration, Rendering, UI, AI
+[Jan Maślak](https://cladur.github.io/) - Leadership, Rendering, Level and Game Design, Asset Baker, Editor
 
 [Agata Granosik](https://www.artstation.com/agatagranosik) - Modeling, Texturing, Animations
+
+[Hubert Łabuda](https://linktr.ee/Maeror) - Music and Sounds, FMOD Integration, Rendering, UI, AI
+
+[Maciej Poncyleusz](https://github.com/Merloran) - Physics, Rendering, Animation Programming
